@@ -1,0 +1,702 @@
+header{
+    height: 100px;
+    /* border:solid black 1px; */
+    position: relative;
+}
+
+nav{
+    width: 50%;
+    height: 50px;
+    /* border: solid black 1px; */
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    list-style: none;
+}
+.logo{
+    width: 250px;
+    height: 65px;
+    /* border: solid black 1px; */
+    position: absolute;
+    left: 40px;
+    bottom: 10px;
+    color: rgb(227, 162, 77);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero{
+    height: 700px;
+    /* border: solid black 1px; */
+    position: relative;
+    background-image: url("../images/banner-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-details{
+    width: 40%;
+    height: 300px;
+    /* border: solid black 1px; */
+    position: absolute;
+    bottom: 200px;
+    left: 120px;
+
+}
+
+.hero-details .uni{
+    color: blanchedalmond;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.hero-details .fre{
+    color: rgb(130, 105, 67);
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-details p{
+    color: white;
+}
+
+.hero-details div{
+    background-color: rgb(209, 153, 79);
+    width: 20%;
+    opacity: 0.6;
+    color: white;
+}
+
+.banner1{
+    width: 85%;
+    height: 350px;
+    /* border: solid black 1px; */
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+.banner1 article{
+    width: 48.5%;
+    height: 100%;
+    /* border: solid black 1px; */
+    position: absolute;
+}
+
+.innerbanner1-1{
+    left: 0px;
+    background-image: url("../images/ads-img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    /* 箱無しで動かす方法
+    padding-[]は内側の移動をしたいとき */
+    padding-left:50px;
+    padding-top:70px;
+    box-sizing: border-box;
+    text-shadow: 3px 3px 3px black;
+}
+
+.innerbanner1-1 h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.innerbanner1-1 p{
+    text-decoration: underline;
+}
+
+.innerbanner1-2 h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.innerbanner1-2 p{
+    text-decoration: underline;
+}
+
+
+.innerbanner1-2{
+    right: 0px;
+    background-image: url("../images/ads-img2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    /* 箱無しで動かす方法
+    padding-[]は内側の移動をしたいとき
+    マージン … 境界線より外側にある余白部分
+    パディング … 境界線と内容領域の間にある余白部分 */
+    padding-left:50px;
+    padding-top:70px;
+    box-sizing: border-box;
+}
+
+.banner2{
+    width: 400px;
+    height: 100px;
+    /* border: solid gray 1px; */
+    margin: auto;
+    margin-top: 80px;    
+    text-align: center;
+}
+
+.banner2 p{
+    color: rgb(198, 171, 64);
+}
+
+.banner2 h4{
+    text-decoration: underline;
+    text-decoration-color: rgb(218, 173, 57);
+    font-size: large;
+}
+
+.banner3{
+    width: 70%;
+    height: 740px;
+    /* border: solid black 1px; */
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.innerbanner-3{
+    width: 23.7%;
+    height: 50%;
+    /* border: solid black 1px; */
+    float: left;
+    margin-left: 1%;
+    position: relative;
+    margin-top: 5px;
+}
+.price-product-name{
+    width: 100%;
+    height: 20%;
+    /* border: solid black 1px; */
+    position: absolute;
+    bottom: 0px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+}
+.picture-product{
+    width: 100%;
+    height: 80%;
+    /* border: solid black 1px; */
+    position: absolute;
+    top: opx;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+}
+
+#p1{
+    background-image: url("../images/merch-img1.jpg");
+}
+
+#p2{
+    background-image: url("../images/merch-img2.jpg");
+}
+
+#p3{
+    background-image: url("../images/merch-img3.jpg");
+}
+
+#p4{
+    background-image: url("../images/merch-img4.jpg");
+}
+
+#p5{
+    background-image: url("../images/merch-img5.jpg");
+}
+
+#p6{
+    background-image: url("../images/merch-img6.jpg");
+}
+
+#p7{
+    background-image: url("../images/merch-img7.jpg");
+}
+
+#p8{
+    background-image: url("../images/merch-img8.jpg");
+}
+
+
+.pctx{
+    font-weight: bold;
+}
+
+
+
+.mbanner{
+    width: 70%;
+    height: 250px;
+    border: solid black 1px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url('../images/discount-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inner-mbanner{
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    /* border: solid black 1px; */
+    margin-top: 70px;
+}
+
+#mbt1{
+    color: white;
+    text-align: center;
+}
+
+#mbt2{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#mbt3{
+    background-color: white;
+    opacity: 0.5;
+    width:130px ;
+    text-align: center;
+    margin: auto;
+}
+
+
+.banner4{
+    width: 400px;
+    height: 100px;
+    /* border: solid gray 1px; */
+    margin: auto;
+    margin-top: 90px;  
+    text-align: center;
+}
+
+#b4-1{
+    color: rgb(198, 171, 64);
+}
+
+#b4-2{
+    text-decoration: underline;
+    text-decoration-color: rgb(218, 173, 57);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+.banner5{
+    width: 70%;
+    height: 350px;
+    /* border: solid black 1px; */
+    margin: auto;
+    margin-top: 60px;
+    position: relative;
+   
+}
+.innerbanner-5{
+    width: 23.7%;
+    height: 100%;
+    /* border: solid black 1px; */
+    float: left;
+    margin-left: 1%;
+    position: relative;
+}
+.price-product-name5{
+    width: 100%;
+    height: 20%;
+    /* border: solid black 1px; */
+    position: absolute;
+    bottom: 0px;
+}
+.picture-product5{
+    width: 100%;
+    height: 80%;
+    /* border: solid black 1px; */
+    position: absolute;
+    top: opx;
+}
+
+#b5p1{
+    background-image: url('../images/merch-img9.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#b5p2{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images/merch-img10.jpg');
+}
+
+#b5p3{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images/merch-img11.jpg');
+}
+
+#b5p4{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images/merch-img12.jpg');
+}
+
+
+.banner6{
+    width: 70%;
+    height: 500px;
+    /* border: solid black 1px; */
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+.banner6 article{
+    width: 49.5%;
+    height: 47%;
+    /* border: solid black 1px; */
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.innerbanner6-1{
+    left: 0px;
+}
+
+.innerbanner6-2{
+    right: 0px;
+}
+.innerbanner6-3{
+    left: 0px;
+    bottom: 0px;
+}
+
+.innerbanner6-4{
+    right: 0px;
+    bottom: 0px;
+}
+.ibt{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+#lpc1{
+    background-image: url('../images/ads-img3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#lpc2{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/ads-img4.jpg');
+}
+
+#lpc3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/ads-img5.jpg');
+}
+
+#lpc4{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/ads-img6.jpg');
+}
+
+.b6t{
+    width: 60% !important;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: left;
+    text-shadow: 3px 3px 3px black;
+}
+
+.b6t h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-top: 50px;
+
+}
+
+.b6t p{
+    text-decoration: underline;
+    text-decoration-color: white;
+    padding-left: 20px;
+}
+
+
+
+.banner7{
+    width: 400px;
+    height: 100px;
+    /* border: solid gray 1px; */
+    margin: auto;
+    margin-top: 70px;  
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 162, 48);
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    /* box-sizing:箱の大きさを変えない */
+}
+
+.form-box{
+    width: 80%;
+    height: 700px;
+    position: relative;
+    /* border: solid black 1px; */
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.form-box article{
+    height: 100%;
+    width: 49%;
+    position: absolute;
+    /* border:  solid black 1px; */
+    padding: 10px;
+    /* padding:上下左右から均等にスペース作る */
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.inner-form1{
+    left: 0;
+    background-color:rgb(221, 221, 221);
+}
+
+
+.input-width{
+    width: 98.5%;
+    height: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#payment{
+    font-size: large;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.paymentlogo{
+    height: 30px;
+    width:  170px;
+    /* border: solid black 1px; */
+    margin: auto;
+    margin-top: 10px;
+    background-image: url('../images/reservation-cards.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.inner-form2{
+    right: 0;
+    background-color:rgb(221, 221, 221);
+}
+
+#send{
+    background-color: rgb(186, 144, 68);
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    /* border: solid black 1px<; */
+    position: relative;
+    margin-top: 50px;
+    background-image: url('../images/footer-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.upper-box{
+   width: 24.8%;
+   height: 85%;
+   /* border: solid rgb(246, 241, 241) 1px; */
+   float: left;
+   
+}
+
+.tw{
+    color: white;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+.post1{
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.orangetx{
+    color: orange;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.orangetx2{
+    color: orange;
+    font-size: 13px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.searchtx{
+    color: white;
+    margin-top: 35px;
+    margin-left: 30px;
+
+}
+
+.bottum-info{
+    width: 100%;
+    height: 15%;
+    color: white;
+    /* border: solid rgb(252, 250, 250) 1px; */
+    bottom: 0px;
+    position: absolute;
+    /* z-index: 100;
+    z-indexは、ボックスを重ね合わせる時に使い、数が大きいほど上に被さる
+    例）
+    z-index: 6;
+    z-index: 3;
+    では、３の上に６のボックスが被さる */
+    background-color: rgb(65, 38, 1) !important;
+    /* opacity: 0.9; */
+}
+
+.upper-box h3, table {
+    color: white;
+    margin: 0 auto;
+}
+
+
+.upper-box h3{
+    margin-top: 3em;
+    margin-left: 30px;
+}
+
+.upper-box table{
+    margin-top: 30px;
+}
+
+.location-box{
+    margin-top: 30px;
+    margin-left: 33px;
+}
+.locationw{
+    color: white;
+}
+
+.orangetx3{
+    color: orange;
+}
+
+.searchtx2{
+    width: 50%;
+    height: 29px;
+    margin-left: 28px;
+    margin-top: 25px;
+}
+
+.searchb{
+    background-color: orange;
+    width: 25%;
+    height: 35px;
+}
+
+
+.bottumleft{
+    position: absolute;
+    bottom: 0;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bottumright{
+    position: absolute;
+    bottom: 0;
+    margin-left: 75%;
+    margin-bottom: 20px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+   
+}
+
+.icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.icon-box{
+    margin: auto;
+    margin-top: 30px;
+    width: 10%;
+    /* border:solid white 1px; */
+}
+
+
+
